@@ -1,0 +1,8 @@
+--model_name iebins_whu_mvs
+--encoder large07
+
+--data_path depth_datasets
+--filenames_file uav_data_splits/whu_mvs_pic_list.txt
+--min_depth 470
+--max_depth 555
+

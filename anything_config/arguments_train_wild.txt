@@ -1,0 +1,33 @@
+--mode train
+--model_name anything_wild
+--encoder vitl
+--pretrain  your_path
+--dataset uav
+--data_path  depth_datasets
+--gt_path   depth_datasets
+--filenames_file anything_splits/filtered_wild_crop_training_list.txt
+--batch_size 8
+--num_epochs 50
+--learning_rate 2e-5
+--weight_decay 1e-2
+--adam_eps 1e-3
+--num_threads 1
+--input_height 384
+--input_width 768
+--max_depth 210
+--do_random_rotate
+--degree 2.5
+--log_directory  models/iebins_wild
+--multiprocessing_distributed
+
+
+--log_freq 100
+--do_online_eval
+--eval_freq 1000
+--data_path_eval  depth_datasets
+--gt_path_eval  depth_datasets
+--filenames_file_eval anything_splits/filtered_wild_crop_testing_list.txt
+--min_depth_eval 1e-3
+--max_depth_eval 210
+--eigen_crop
+

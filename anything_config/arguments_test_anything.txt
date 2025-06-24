@@ -1,0 +1,9 @@
+--model_name my_anything
+--encoder vitl
+
+--data_path depth_datasets
+--gt_path /data1depth_datasets
+--filenames_file uav_data_splits/whu_any_test_list.txt
+--max_depth 350
+--min_depth 0.01
+

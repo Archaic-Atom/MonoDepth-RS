@@ -1,0 +1,33 @@
+--mode train
+--model_name whu_anything
+--encoder vitl
+--pretrain  Depth_Anything_V2/model_zoo/depth_anything_v2_vitl.pth
+--dataset uav
+--data_path depth_datasets
+--gt_path    depth_datasets
+--filenames_file uav_data_splits/whu_med_training_list.txt   
+--batch_size 8
+--num_epochs 50
+--learning_rate 1e-5
+--weight_decay 1e-2
+--adam_eps 1e-3
+--num_threads 1
+--input_height 196
+--input_width 392
+--min_depth 1e-3
+--max_depth 350
+--do_random_rotate
+--degree 2.5
+--log_directory /models/my_anything_whu
+--multiprocessing_distributed
+--dist_url tcp://127.0.0.1:2345
+
+--log_freq 100
+--do_online_eval
+--eval_freq 1000
+--data_path_eval  depth_datasets
+--gt_path_eval    depth_datasets
+--filenames_file_eval  uav_data_splits/whu_med_testing_list.txt
+--min_depth_eval 1e-3
+--max_depth_eval 350
+--eigen_crop
