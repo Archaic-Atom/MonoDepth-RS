@@ -1,0 +1,14 @@
+--model_name whu_
+--encoder None
+--dataset whu
+--input_height 384
+--input_width 768
+--min_depth 1-e3
+--max_depth 350
+
+--data_path_eval depth_datasets
+--gt_path_eval depth_datasets
+--filenames_file_eval uav_data_splits/whu_med_testing_list.txt
+--min_depth_eval 1e-3
+--max_depth_eval 350
+

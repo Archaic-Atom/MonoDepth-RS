@@ -1,0 +1,15 @@
+--model_name levir
+--encoder None
+--dataset  levir
+--input_height 512
+--input_width 512
+--min_depth 0.01
+--max_depth 137
+
+--data_path_eval depth_datasets
+--gt_path_eval depth_datasets
+--filenames_file_eval uav_data_splits/LEVIR_med_testing_list.txt
+--min_depth_eval 0.01
+--max_depth_eval 137
+
+
