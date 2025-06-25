@@ -4,8 +4,6 @@
 [点此下载模型（百度网盘）](https://pan.baidu.com/s/1H41V78ddq6KIT3BD60jLeg)  
 提取码：`sn5a`
 
-<div align="center">
-
 ---
 
 ## 🔧 Installation
