@@ -1,0 +1,4 @@
+LEVIR_NVS/scene_000/Images/000.png LEVIR_NVS/scene_000/Depths/000.tiff
+LEVIR_NVS/scene_000/Images/001.png LEVIR_NVS/scene_000/Depths/001.tiff
+LEVIR_NVS/scene_000/Images/002.png LEVIR_NVS/scene_000/Depths/002.tiff
+LEVIR_NVS/scene_000/Images/003.png LEVIR_NVS/scene_000/Depths/003.tiff
