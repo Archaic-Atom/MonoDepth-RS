@@ -10,7 +10,6 @@
 
 ## 🧱 Installation
 
-建议使用 Conda 环境管理：
 
 ```bash
 conda create -n MonoRSpython=3.8
@@ -33,7 +32,7 @@ pip install matplotlib tqdm tensorboardX timm mmcv open3d
 
 
 ```bash
-python MonoRS/anything_train.py uav_configs/arguments_train_anything.txt
+python MonoRS/anything_train.py uav_configs/arguments_train_whu.txt
 ```
 
 ---
